@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/" 
-title: Pascal Michaillat
+baseURL: "https://dbe.org/" 
+title: Dylan Balla-Elliott
 paginate: 20
 theme: PaperMod
 
@@ -14,26 +14,15 @@ menu:
         - name: Papers
           url: /papers/
           weight: 1
-        - name: Courses
-          url: /courses/
-          weight: 2
-        - name: Design
-          url: /design/
-          weight: 3
-        - name: Tags
-          url: /tags/
-          weight: 5     
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
-          weight: 4
+
 
 params:
-    description: "I am an Associate Professor of Economics at UC Santa Cruz. My research covers unemployment, economic slack, business cycles, and macroeconomic policy."
-    author: Pascal Michaillat
-    googleAnalyticsID: "G-97G4MZ4061"
+    description: "I am a PhD student at UChicago Econ & an NSF GRF. My research interests are in labor and applied econometrics/causal inference."
+    author: Dylan Balla-Elliott
+    # googleAnalyticsID: "G-97G4MZ4061"
     DateFormat: "January 2006"
     defaultTheme: light
-    hideFooter: true
+    hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
@@ -52,36 +41,33 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Pascal Michaillat
-          subtitle: "I am an Associate Professor of Economics at the University of California, Santa Cruz. I try to understand why economic slack—especially unemployment—exists and why it fluctuates over the business cycle. I also study how macroeconomic policies—including monetary policy, government spending, unemployment insurance, and immigration—should respond to such cyclical fluctuations."
-          imageUrl: "/picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          imageTitle: Pascal Michaillat
+          title: Hi! I'm Dylan Balla-Elliott;
+          subtitle: "I'm a **PhD student** in the **Economics Department** at the **University of Chicago**, and an **NSF Graduate Research Fellow**. Before coming to Chicago, I was a research associate at Harvard Business School. I graduated from Brown University with a degree in Economics & Applied Math and Public Policy. 
+          My research interests are in **labor** and **applied econometrics/causal inference**."
+          # imageUrl: "/picture.jpeg"
+          # imageWidth: 160
+          # imageHeight: 160
+          # imageTitle: Pascal Michaillat
           buttons:
             - name: Papers
               url: /papers/
-            - name: Courses
-              url: /courses/
-            - name: Design
-              url: /design/
-            - name: Newsletter
-              url: https://pmichaillat.substack.com
+            # - name: Courses
+            #   url: /courses/
+            # - name: Design
+            #   url: /design/
+            # - name: Newsletter
+            #   url: https://pmichaillat.substack.com
     socialIcons:
         - name: CV
-          url: /cv.pdf
+          url: https://pdfs.dballaelliott.com/dbeCV.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
-        - name: Location
-          url: /location/
-        - name: Office Hours
-          url: /officehours/
+          url: mailto:dbe@uchicago.edu
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: GitHub
-          url: https://github.com/pmichaillat?tab=repositories
+          url: https://scholar.google.com/citations?user=iuYvIB4AAAAJ
+        # - name: YouTube
+        #   url: https://www.youtube.com/@pmichaillat
+        # - name: GitHub
+        #   url: https://github.com/dballaelliott
 
     assets:
         disableHLJS: true
@@ -90,7 +76,7 @@ params:
         hiddenInList: true
         hiddenInSingle: true
     label:
-      text: "Pascal Michaillat"
+      text: "Dylan Balla-Elliott"
       icon: /favicon.ico
       iconHeight: 18
 
