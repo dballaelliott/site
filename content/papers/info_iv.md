@@ -1,16 +1,14 @@
 ---
 title: "Identifying Causal Effects in Information Provision Experiments" 
 date: 2023-09-20
-url: /paper/info_iv
-aliases: 
-    - /old_url.html
+url: /papers/info_iv
 # tags: ["keyword 1","keyword 2"]
 author: ["Dylan Balla-Elliott"]
-description: "Paper description for search engines (less than 155 characters)" 
-summary: "Paper summary for list page (less than 265 characters)"
+description: "TSLS can underestimate the effects of beliefs on outcomes. I propose an alternative way to estimate average effects in information provision experiments." 
+summary: "If people form precise beliefs about things that matter for decision-making and people with precise beliefs update less in response to new information, TSLS will understate the average effect of beliefs on behavior. I propose a alternative estimator and find that average effects are 40% larger than TSLS in an application to beliefs about the gender wage gap."
 cover:
-    image: "/paper_figure.png"
-    alt: "Figure from paper"
+    image: "/infoiv-fig.png"
+    alt: "Figure 1 from paper"
     relative: false
 editPost:
     URL: "https://doi.org/10.48550/arXiv.2309.11387"
@@ -34,9 +32,9 @@ Information provision experiments are an increasingly popular tool to identify h
 
 ---
 
-##### Figure X:  Figure title
+##### Figure 1. TSLS Estimates Understate the Average Effect of Beliefs
 
-![](/figurex.png)
+![](/infoiv-fig.png)
 
 ---
 

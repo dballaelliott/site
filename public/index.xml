@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dylan Balla-Elliott</title>
+    <link>/</link>
+    <description>Recent content on Dylan Balla-Elliott</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identifying Causal Effects in Information Provision Experiments</title>
+      <link>/papers/info_iv/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/info_iv/</guid>
+      <description>TSLS can underestimate the effects of beliefs on outcomes. I propose an alternative way to estimate average effects in information provision experiments.</description>
+    </item>
+    
+    <item>
+      <title>Determinants of Small Business Reopening Decisions After COVID Restrictions Were Lifted</title>
+      <link>/papers/reopening/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/reopening/</guid>
+      <description>Small businesses delayed reopening due to pessimistic demand projections, not health concerns, after COVID-19 lockdowns.</description>
+    </item>
+    
+  </channel>
+</rss>

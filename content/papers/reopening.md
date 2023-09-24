@@ -1,7 +1,7 @@
 ---
 title: "Determinants of Small Business Reopening Decisions After COVID Restrictions Were Lifted" 
 date: 2022-01-08
-url: /paper/reopening
+url: /papers/reopening
 aliases: 
     - /old_url.html
 # tags: ["keyword 1","keyword 2"]
@@ -20,6 +20,13 @@ editPost:
 
 ---
 
+##### Download:
+
+- [Paper](https://pdfs.dballaelliott.com/jpam_reopening.pdf)
+<!-- - [Online appendix](/appendix.pdf) -->
+<!-- - [Code and data](https://github.com/paper_repo) -->
+
+---
 
 ##### Abstract:
 

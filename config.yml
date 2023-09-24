@@ -1,4 +1,4 @@
-baseURL: "https://dbe.org/" 
+# baseURL: "https://dbe.org/" 
 title: Dylan Balla-Elliott
 paginate: 20
 theme: PaperMod
@@ -19,7 +19,7 @@ menu:
 params:
     description: "I am a PhD student at UChicago Econ & an NSF GRF. My research interests are in labor and applied econometrics/causal inference."
     author: Dylan Balla-Elliott
-    # googleAnalyticsID: "G-97G4MZ4061"
+    googleAnalyticsID: "G-HBBB14MJL3"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -62,12 +62,12 @@ params:
           url: https://pdfs.dballaelliott.com/dbeCV.pdf
         - name: Email
           url: mailto:dbe@uchicago.edu
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=iuYvIB4AAAAJ
-        # - name: YouTube
-        #   url: https://www.youtube.com/@pmichaillat
+        # - name: Google Scholar
+        #   url: https://scholar.google.com/citations?user=iuYvIB4AAAAJ
         # - name: GitHub
-        #   url: https://github.com/dballaelliott
+        #   url: https://github.com/dballaelliott       
+        # - name: Twitter
+        #   url: https://twitter.com/dballaelliott
 
     assets:
         disableHLJS: true
