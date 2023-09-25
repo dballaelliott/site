@@ -1,4 +1,4 @@
-# baseURL: "https://dballaelliott.github.io/site/" 
+baseURL: "https://dballaelliott.github.io/site/" 
 title: Dylan Balla-Elliott
 paginate: 20
 theme: PaperMod
