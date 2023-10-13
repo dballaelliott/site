@@ -40,6 +40,6 @@ Information provision experiments are an increasingly popular tool to identify h
 
 ##### Citation
 
-Dylan Balla-Elliott. 2023. "Identifying Causal Effects in Information Provision Experiments." https://doi.org/10.48550/arXiv.2309.11387.
+Dylan Balla-Elliott (2023). "Identifying Causal Effects in Information Provision Experiments." https://doi.org/10.48550/arXiv.2309.11387.
 
 
