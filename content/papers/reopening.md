@@ -6,8 +6,8 @@ aliases:
     - /old_url.html
 # tags: ["keyword 1","keyword 2"]
 author: ["Dylan Balla-Elliott", "Zoë B. Cullen", "Edward L. Glaeser", "Michael Luca", "Christopher Stanton"]
-description: "Small businesses delayed reopening due to pessimistic demand projections, not health concerns, after COVID-19 lockdowns." 
-summary: "Our survey shows lockdowns were binding for small businesses, and pessimistic demand projections explain delays among firms that could legally reopen. Governments set more stringent guidelines for reopening, suggesting they internalized costs of contagion that businesses did not."
+description: "Small businesses delayed reopening due to pessimistic demand projections, not health concerns, after COVID-19 lockdowns ended." 
+summary: "Lockdowns were binding for small businesses and pessimistic demand projections explain delays among firms that could legally reopen. Governments set more stringent guidelines for reopening, suggesting they internalized costs of contagion that businesses did not."
 cover:
     image: "/paper_figure.png"
     alt: "Figure from paper"

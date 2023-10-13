@@ -19,6 +19,9 @@
 .profile img {
     display: inline-table;
     border-radius: 50%;
+    max-width: 100%;
+        /* width: auto; */
+        height: auto;
 }
 
 .buttons {

@@ -4,8 +4,8 @@ date: 2023-09-20
 url: /papers/info_iv
 # tags: ["keyword 1","keyword 2"]
 author: ["Dylan Balla-Elliott"]
-description: "TSLS can underestimate the effects of beliefs on outcomes. I propose an alternative way to estimate average effects in information provision experiments." 
-summary: "If people form precise beliefs about things that matter for decision-making and people with precise beliefs update less in response to new information, TSLS will understate the average effect of beliefs on behavior. I propose a alternative estimator and find that average effects are 40% larger than TSLS in an application to beliefs about the gender wage gap."
+description: "TSLS can underestimate the effects of beliefs on outcomes. I propose an alternative way to estimate belief effects in information provision experiments." 
+summary: "If people form precise beliefs about things that matter for decision-making and then update beliefs less in response to new information, TSLS will understate the average effect of beliefs on behavior. I propose an alternative estimator and apply it to the gender gap."
 cover:
     image: "/infoiv-fig.png"
     alt: "Figure 1 from paper"
@@ -22,7 +22,7 @@ editPost:
 
 - [Paper](https://pdfs.dballaelliott.com/info_iv.pdf)
 <!-- - [Online appendix](/appendix.pdf) -->
-<!-- - [Code and data](https://github.com/paper_repo) -->
+- *Code available upon request*
 
 ---
 

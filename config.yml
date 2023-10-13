@@ -43,11 +43,11 @@ params:
           enabled: true
           title: Hi! I'm Dylan Balla-Elliott;
           subtitle: "I'm a **PhD student** in the **Economics Department** at the **University of Chicago**, and an **NSF Graduate Research Fellow**. Before coming to Chicago, I was a research associate at Harvard Business School. I graduated from Brown University with a degree in Economics & Applied Math and Public Policy. 
-          My research interests are in **labor** and **applied econometrics/causal inference**."
-          # imageUrl: "/picture.jpeg"
-          # imageWidth: 160
-          # imageHeight: 160
-          # imageTitle: Pascal Michaillat
+          My research interests are in **labor** and **applied econometrics/causal inference**. "
+          imageUrl: "/picture.jpeg"
+          imageWidth: 200
+          imageHeight: 200
+          imageTitle: Dylan Balla-Elliott
           buttons:
             - name: Papers
               url: /papers/
