@@ -1,6 +1,6 @@
 ---
 title: "Identifying Causal Effects in Information Provision Experiments" 
-date: 2023-09-20
+date: 2023-11-08
 url: /papers/info_iv
 # tags: ["keyword 1","keyword 2"]
 author: ["Dylan Balla-Elliott"]
@@ -8,7 +8,7 @@ description: "TSLS can underestimate the effects of beliefs on outcomes. I propo
 summary: "If people form precise beliefs about things that matter for decision-making and then update beliefs less in response to new information, TSLS will understate the average effect of beliefs on behavior. I propose an alternative estimator and apply it to the gender gap."
 cover:
     image: "/infoiv-fig.png"
-    alt: "Figure 1 from paper"
+    alt: "Figure 2 from paper"
     relative: false
 editPost:
     URL: "https://doi.org/10.48550/arXiv.2309.11387"
@@ -28,11 +28,12 @@ editPost:
 
 ##### Abstract:
 
-Information provision experiments are an increasingly popular tool to identify how beliefs causally affect decision-making and behavior. In a simple Bayesian model of belief formation via costly information acquisition, people form precise beliefs when these beliefs are important for their decision-making. The precision of prior beliefs controls how much their beliefs shift when they are shown new information (i.e., the strength of the first stage). Since two-stage least squares (TSLS) targets a weighted average with weights proportional to the strength of the first stage, TSLS will overweight individuals with smaller causal effects and underweight those with larger effects, thus understating the average partial effect of beliefs on behavior. In experimental designs where all participants are exposed to new information, Bayesian updating implies that a control function can be used to identify the (unweighted) average partial effect. I apply this estimator to a recent study of the effects of beliefs about the gender wage gap on support for public policies (Settele, 2022) and find the average partial effect is 40% larger than the comparable TSLS estimate. This difference can be explained by the fact that the effects of beliefs are close to zero for people who update their beliefs the most and receive the most weight in TSLS specifications.
+Information provision experiments are a popular way to study causal effects of beliefs on behavior. Researchers estimate these effects using TSLS. I show that existing TSLS specifications do not estimate the average partial effect; they have weights proportional to belief updating in the first-stage. If people whose decisions depend on their beliefs gather information before the experiment, the information treatment may shift beliefs more for people with weak belief effects. This attenuates TSLS estimates. I propose researchers use a local-least-squares (LLS) estimator that I show consistently estimates the average partial effect (APE) under Bayesian updating, and apply it to Settele (2022).
+
 
 ---
 
-##### Figure 1. TSLS Estimates Understate the Average Effect of Beliefs
+##### Figure 2. LLS Estimates of the Average Partial Effect are 70% Larger than TSLS
 
 ![](/infoiv-fig.png)
 
