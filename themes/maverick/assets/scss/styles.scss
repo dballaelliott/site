@@ -5,11 +5,17 @@
 
 body {
     // font: 1rem/1.5 -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-    font: 1.125rem/1.6 "Source Sans Pro", Georgia, "Times New Roman", serif;
-    font-weight: 500;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    font-weight: 400;
+    font-display: swap; /* Helps with font loading */
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    /* Safari-specific font rendering improvements */
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
     padding: 2rem;
     // background: hsla(93, 0%, 96%, 1.00);
     background: #fffdfa;

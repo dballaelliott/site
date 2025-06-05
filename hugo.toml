@@ -8,7 +8,7 @@ theme = 'maverick'
 
 [params]
   logo = '/favicon.ico'
-  description = "I am a PhD student at UChicago Econ & an NSF GRF. My research interests are in labor and applied econometrics/causal inference."
+  description = "I'm a PhD candidate at UChicago Econ, and my research interests are in labor and applied econometrics."
   author = 'Dylan Balla-Elliott'
   items = 10
 

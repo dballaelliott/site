@@ -10,8 +10,6 @@ description: "I'm a PhD candidate at UChicago Econ, and my research interests ar
 I'm a **PhD candidate** in the Economics Department at the **University of Chicago**. 
 My research interests are in labor and applied econometrics.
 <!--  -->
-<!-- , and an NSF Graduate Research Fellow. Before coming to Chicago, I was a research associate at Harvard Business School. I graduated from Brown University with a degree in Economics & Applied Math and Public Policy. -->
-<!--  -->
 <!-- Social icons -->
 <div class="social-icons">
     <a href="mailto:dbe@uchicago.edu" class="social-icon" title="Email" id="email-icon">
@@ -46,6 +44,8 @@ average effects in several classes of experiments under progressively stronger v
 Bayesian updating. In five of six recent studies, average effects are larger than–in several
 cases more than double–estimates in standard specifications.
 <!--  -->
+    <h3> Code [Under Construction] </h3>
+    An R package is under construction. Please email me for example code in R and Stata in the meantime!
     </div>
 </div> 
 
