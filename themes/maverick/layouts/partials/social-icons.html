@@ -1,0 +1,29 @@
+{{/* Social icons partial - can be used anywhere in the site */}}
+<div class="social-icons">
+    {{ if .email }}
+    <a href="mailto:{{ .email }}" class="social-icon" title="Email" id="email-icon">
+        {{ partial "icons/email.html" . }}
+        <span class="email-tooltip">{{ .email }}</span>
+    </a>
+    {{ end }}
+    {{ if .cv }}
+    <a href="{{ .cv }}" class="social-icon" title="CV">
+        {{ partial "icons/cv.html" . }}
+    </a>
+    {{ end }}
+    {{ if .twitter }}
+    <a href="{{ .twitter }}" class="social-icon" title="Twitter">
+        {{ partial "icons/twitter.html" . }}
+    </a>
+    {{ end }}
+    {{ if .github }}
+    <a href="{{ .github }}" class="social-icon" title="GitHub">
+        {{ partial "icons/github.html" . }}
+    </a>
+    {{ end }}
+    {{ if .linkedin }}
+    <a href="{{ .linkedin }}" class="social-icon" title="LinkedIn">
+        {{ partial "icons/linkedin.html" . }}
+    </a>
+    {{ end }}
+</div>

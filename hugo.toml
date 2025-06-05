@@ -1,0 +1,38 @@
+baseURL = 'https://www.dballaelliott.com'
+languageCode = 'en-us'
+title = 'Dylan Balla-Elliott'
+theme = 'maverick'
+
+[permalinks]
+  pages = "/:slug"
+
+[params]
+  logo = '/favicon.ico'
+  description = "I am a PhD student at UChicago Econ & an NSF GRF. My research interests are in labor and applied econometrics/causal inference."
+  author = 'Dylan Balla-Elliott'
+  items = 10
+
+[menu]
+  [[menu.main]]
+    identifier = "papers"
+    name = "Papers"
+    url = "/#papers"
+    weight = 1
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokailight'
+    tabWidth = 4

@@ -1,0 +1,505 @@
+*, :after, :before {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    // font: 1rem/1.5 -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font: 1.125rem/1.6 "Source Sans Pro", Georgia, "Times New Roman", serif;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 2rem;
+    // background: hsla(93, 0%, 96%, 1.00);
+    background: #fffdfa;
+    color: #000;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    //margin: 1.5rem 0;
+    background: #eee;
+    //color: white;
+    //padding: 1.5rem;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+// h1, h2, h3, h4, h5, strong, b {
+//     font-size: inherit;
+//     font-weight: 600;
+//     text-transform: uppercase;
+// }
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+h4, h5, h6 {
+    font-weight: 500;
+}
+
+strong, b {
+    font-weight: 600;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-bottom: 1rem;
+
+    .burger {
+        display: none;
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+
+        span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background: #000;
+            margin: 5px 0;
+            transition: all 0.3s ease;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .burger {
+            display: block;
+            z-index: 2;
+        }
+
+        .nav-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            height: 100vh;
+            background: #fffdfa;
+            padding: 2rem;
+            transition: 0.3s ease;
+            z-index: 1;
+
+            &.active {
+                right: 0;
+            }
+
+            ul {
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                
+                li {
+                    display: block;
+                    font-size: 1.2rem;
+                    border-bottom: 1px dotted black;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        &.menu-open {
+            .burger {
+                span:first-child {
+                    transform: rotate(45deg) translate(5px, 6px);
+                }
+                span:nth-child(2) {
+                    opacity: 0;
+                }
+                span:last-child {
+                    transform: rotate(-45deg) translate(5px, -6px);
+                }
+            }
+        }
+    }
+}
+
+header a {
+    text-decoration: none;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    //border-right: 1px solid #edf2f7;
+
+}
+
+header li, header a {
+    //margin-bottom: .2rem;
+    //text-align: right;
+    //margin-right: 2rem;
+    display: inline;
+}
+
+.link {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+
+.time {
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+}
+
+blockquote {
+    border-left: 5px solid #eee;
+    padding-left: 1rem;
+    margin: 0;
+}
+
+a,
+a:visited {
+    color: inherit;
+}
+
+a:hover,
+a.heading-link {
+    text-decoration: none
+}
+
+pre {
+    padding: .5rem;
+    overflow: auto;
+    overflow-x: scroll;
+    overflow-wrap: normal;
+}
+
+code, pre {
+    font-family: "Source Code Pro", Monaco, "Consolas", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+    font-size: normal;
+    font-size: small;
+    background: #eee
+}
+
+code {
+    margin: .1rem;
+    border: none;
+    overflow: visible;
+    overflow-wrap: anywhere;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul, ol {
+    padding-left: 1.2rem;
+}
+
+.list {
+    line-height: 2;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list li {
+    padding-bottom: .1rem
+}
+
+.meta {
+    color: #777
+}
+
+.content {
+    max-width: 70ch;
+    margin: 0 auto;
+    // text-align: justify;
+}
+
+h2.post {
+    padding-top: .5rem;
+}
+
+header ul a:first-child {
+    padding-left: 1rem;
+}
+
+.nav {
+    height: 1px;
+    background: #000;
+    content: '';
+    max-width: 10%;
+}
+
+.list li {
+    display: flex;
+    align-items: baseline;
+}
+
+.list li time {
+    flex: 0 1 auto;
+}
+
+.hr-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    height: 1px;
+    border: 0;
+    border-bottom: 1px dotted #ccc;
+    flex: 1 0 1rem;
+    //opacity: .25;
+}
+
+.m,
+hr {
+    border: 0;
+    margin: 3rem 0
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.post-date {
+    margin: 5% 0 5%;
+}
+
+.index-date {
+    color: #9a9a9a;
+}
+
+.animate-blink {
+    animation: opacity 1s infinite;
+    opacity: 1;
+    // margin-left: -1%;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.tags {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tags ul {
+    padding: 0;
+    margin: 0;
+}
+
+.tags li {
+    display: inline;
+}
+
+.avatar {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    margin: -10px 0 0 15px;
+    float: right;
+    border-radius: 50%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+// Paper expand/collapse functionality
+.paper-item {
+    margin-bottom: 0.5rem;
+    border-left: 3px solid transparent;
+    padding-left: 0.75rem;
+    transition: border-color 0.2s ease;
+}
+
+.paper-item:hover {
+    border-left-color: #e5e5e5;
+}
+
+.paper-title {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+    line-height: 1.3;
+    cursor: pointer;
+    padding: 0.2rem 0;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.paper-title:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+    transform: scale(1.02);
+}
+
+.paper-title-text {
+    flex: 1;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #666;
+    transition: color 0.2s ease;
+}
+
+.paper-title:hover .paper-title-text {
+    color: #333;
+}
+
+.paper-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+    transition: all 0.2s ease;
+    color: #666;
+    margin-top: 0.1rem;
+    margin-right: 0.5rem;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.paper-toggle:hover {
+    color: #333;
+    transform: scale(1.1);
+}
+
+.paper-toggle.expanded {
+    color: #333;
+    transform: rotate(180deg);
+}
+
+.paper-content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    padding-left: 2rem;
+    margin-top: 0.25rem;
+    color: #666;
+    font-style: normal;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+// Social icons
+.social-icons {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    color: #666;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    position: relative;
+}
+
+.social-icon:hover {
+    color: #0066cc;
+}
+
+.social-icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+// Email tooltip
+.email-tooltip {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+    font-family: "Source Code Pro", "Monaco", "Menlo", "Consolas", "Courier New", monospace;
+    font-size: 0.85rem;
+    color: #333;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.social-icon:hover .email-tooltip,
+.social-icon.active .email-tooltip {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+// Footer
+footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    
+    p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: #666;
+        line-height: 1.5;
+    }
+    
+    a {
+        color: #666;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: all 0.2s ease;
+        
+        &:hover {
+            color: #333;
+            border-bottom-color: #333;
+        }
+    }
+}
