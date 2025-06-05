@@ -27,13 +27,14 @@ My research interests are in labor and applied econometrics.
 <div class="paper-item">
     <div class="paper-title">
         <button class="paper-toggle" data-paper="1">+</button>
-        <h3 class="paper-title-text">Identifying Causal Effects in Information Provision Experiments.  </h3>  <a href="https://pdfs.dballaelliott.com/info_iv.pdf" class="social-icon" title="info_iv">
+        <h3 class="paper-title-text">Identifying Causal Effects in Information Provision Experiments </h3>  <a href="https://pdfs.dballaelliott.com/info_iv.pdf" class="social-icon" title="info_iv">
         {{< icon "cv" >}}
     </a> 
     </div>
     <div class="paper-content" id="paper-content-1">
-    Balla-Elliott, Dylan (2025). "Identifying Causal Effects in Information Provision Experiments"  <a href="https://doi.org/10.48550/arXiv.2309.11387">  arXiv:2309.11387</a>
+    Balla-Elliott, Dylan (2025). "Identifying Causal Effects in Information Provision Experiments."  <a href="https://doi.org/10.48550/arXiv.2309.11387">  arXiv:2309.11387</a>
     <br> 
+    <em> Revise and Resubmit, ReStat </em>
     <!--  -->
     <h3> Abstract </h3>
 Information treatments often shift beliefs more for people with weak belief effects. Since
