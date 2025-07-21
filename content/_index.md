@@ -32,8 +32,10 @@ My research interests are in labor and applied econometrics.
     </a> 
     </div>
     <div class="paper-content" id="paper-content-1">
-    Balla-Elliott, Dylan (2025). "Identifying Causal Effects in Information Provision Experiments."  <a href="https://doi.org/10.48550/arXiv.2309.11387">  arXiv:2309.11387</a>
-    <br> 
+        <a href="https://pdfs.dballaelliott.com/info_iv.pdf">pdf</a> | <a href="https://doi.org/10.48550/arXiv.2309.11387">arXiv</a>
+        <br><br>
+        Balla-Elliott, Dylan (2025). "Identifying Causal Effects in Information Provision Experiments."  <a href="https://doi.org/10.48550/arXiv.2309.11387">arXiv:2309.11387</a>
+        <br> 
     <em> Revise and Resubmit, ReStat </em>
     <!--  -->
     <h3> Abstract </h3>
@@ -58,8 +60,9 @@ cases more than double–estimates in standard specifications.
     </a>
     </div>
     <div class="paper-content" id="paper-content-2">
-        <!-- paper info -->
-        Balla-Elliott, Dylan, Zoë B. Cullen, Edward L. Glaeser, Michael Luca, and Christopher Stanton (2022). "Determinants of Small Business Reopening Decisions After Covid Restrictions Were Lifted". Journal of Policy Analysis and Management 41.1, pp. 278–317.<a href="https://doi.org/10.1002/pam.22355">  DOI: 10.1002/pam.22355</a>
+        <a href="https://pdfs.dballaelliott.com/jpam_reopening.pdf">pdf</a> | <a href="https://doi.org/10.1002/pam.22355">JPAM (ungated)</a>
+        <br><br>
+        Balla-Elliott, Dylan, Zoë B. Cullen, Edward L. Glaeser, Michael Luca, and Christopher Stanton (2022). "Determinants of Small Business Reopening Decisions After Covid Restrictions Were Lifted". Journal of Policy Analysis and Management 41.1, pp. 278–317. <a href="https://doi.org/10.1002/pam.22355">DOI: 10.1002/pam.22355</a>
         <!--  -->
         <h3> Abstract </h3>
         <!-- button row -->

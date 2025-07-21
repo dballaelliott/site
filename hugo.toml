@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Dylan Balla-Elliott'
 theme = 'maverick'
 
+# Google Analytics Configuration
+googleAnalytics = 'G-HBBB14MJL3'  
+
 [permalinks]
   pages = "/:slug"
 
