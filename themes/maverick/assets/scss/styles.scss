@@ -376,16 +376,16 @@ th {
 .paper-title-text {
     flex: 1;
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     line-height: 1.3;
-    color: #666;
+    // color: #666;
     transition: color 0.2s ease;
 }
 
-.paper-title:hover .paper-title-text {
-    color: #333;
-}
+// .paper-title:hover .paper-title-text {
+//     // color: #333;
+// }
 
 .paper-toggle {
     background: none;
@@ -423,9 +423,9 @@ th {
     transition: all 0.3s ease;
     padding-left: 2rem;
     margin-top: 0.25rem;
-    color: #666;
+    // color: #666;
     font-style: normal;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.4;
 }
 
@@ -475,7 +475,6 @@ th {
     pointer-events: none;
 }
 
-.social-icon:hover .email-tooltip,
 .social-icon.active .email-tooltip {
     opacity: 1;
     visibility: visible;

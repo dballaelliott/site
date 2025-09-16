@@ -8,22 +8,23 @@ description: "I'm a PhD candidate at UChicago Econ, and my research interests ar
 <img class="avatar" src="/picture.jpeg" alt="Dylan Balla-Elliott">
 
 I'm a **PhD candidate** in the Economics Department at the **University of Chicago**. 
-My research interests are in labor and applied econometrics.
+My research interests are in labor and applied econometrics; my email is   <span style="font-family: 'Source Code Pro'; font-size: 1rem;">dbe@uchicago.edu</span>
+
+
 <!--  -->
 <!-- Social icons -->
 <div class="social-icons">
-    <a href="mailto:dbe@uchicago.edu" class="social-icon" title="Email" id="email-icon">
+    <!-- <span href="" class="social-icon" title="Email" id="email-icon" aria-expanded="false" aria-controls="email-tooltip">
         {{< icon "email" >}}
-        <span class="email-tooltip">dbe@uchicago.edu</span>
-    </a>
+        <span class="email-tooltip" id="email-tooltip" aria-hidden="true">dbe@uchicago.edu</span>
+    </span> -->
     <a href="https://pdfs.dballaelliott.com/dbeCV.pdf" class="social-icon" title="CV">
         {{< icon "cv" >}}
     </a>
 </div>
 
-##  Papers
-<!--  -->
-<!--  -->
+##  Research
+
 <div class="paper-item">
     <div class="paper-title">
         <button class="paper-toggle" data-paper="1">+</button>
@@ -52,14 +53,36 @@ cases more than double–estimates in standard specifications.
     </div>
 </div> 
 
+
+
+
 <div class="paper-item">
     <div class="paper-title">
         <button class="paper-toggle" data-paper="2">+</button>
-        <h3 class="paper-title-text">Determinants of Small Business Reopening Decisions After COVID Restrictions Were Lifted</h3> <a href="https://pdfs.dballaelliott.com/jpam_reopening.pdf" class="social-icon" title="reopening">
+        <h3 class="paper-title-text">Cohort‑Chained DiD: Long‑Run Effects with Limited Pre‑Treatment Data</h3> <a href="https://pdfs.dballaelliott.com/ccdid.pdf" class="social-icon" title="ccdid">
         {{< icon "cv" >}}
     </a>
     </div>
     <div class="paper-content" id="paper-content-2">
+        <a href="https://pdfs.dballaelliott.com/ccdid.pdf">pdf</a>
+        <br><br>
+        Balla-Elliott, Dylan, Isaac Norwich (2025). "Cohort‑Chained DiD: Long‑Run Effects with Limited Pre‑Treatment Data". Working Paper.
+        <!--  -->
+        <h3> Abstract </h3>
+        <!-- button row -->
+        Heterogeneity robust difference-in-differences methods typically require control units that remain untreated throughout the entire post-treatment window. This prevents the identification of long-run effects when researchers observe fewer pre-treatment periods than post-treatment periods. We show that cohort-stacked estimators identify long-run effects by chaining together successive not-yet-treated controls. This approach uses overlapping cohorts to extend identification under standard common trends assumptions. We apply this to the earnings effects of parenthood. In a setting where direct methods identify effects only four years post-birth, chaining extends identification to eight years.
+    </div>
+</div>
+
+
+<div class="paper-item">
+    <div class="paper-title">
+        <button class="paper-toggle" data-paper="3">+</button>
+        <h3 class="paper-title-text">Determinants of Small Business Reopening Decisions After COVID Restrictions Were Lifted</h3> <a href="https://pdfs.dballaelliott.com/jpam_reopening.pdf" class="social-icon" title="reopening">
+        {{< icon "cv" >}}
+    </a>
+    </div>
+    <div class="paper-content" id="paper-content-3">
         <a href="https://pdfs.dballaelliott.com/jpam_reopening.pdf">pdf</a> | <a href="https://doi.org/10.1002/pam.22355">JPAM (ungated)</a>
         <br><br>
         Balla-Elliott, Dylan, Zoë B. Cullen, Edward L. Glaeser, Michael Luca, and Christopher Stanton (2022). "Determinants of Small Business Reopening Decisions After Covid Restrictions Were Lifted". Journal of Policy Analysis and Management 41.1, pp. 278–317. <a href="https://doi.org/10.1002/pam.22355">DOI: 10.1002/pam.22355</a>
