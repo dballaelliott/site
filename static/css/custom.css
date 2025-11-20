@@ -17,3 +17,36 @@
   max-height: 0;
   opacity: 0;
 }
+
+.names {
+  font-size: 0.875rem; /* smaller than paper title */
+  font-style: italic;
+  margin-top: 0;
+  margin-left: 2rem; /* align with title text, accounting for button + gap */
+  color: #666; /* slightly muted */
+  font-weight: normal;
+  flex: 1 0 100%; /* flex-grow: 1, flex-shrink: 0, flex-basis: 100% - forces new line */
+  order: 999; /* place at end of flex container */
+}
+
+.paper-title .social-icon {
+  position: absolute;
+  top: 0.2rem;
+}
+
+/* Position icons from right to left */
+.paper-title .social-icon:nth-last-child(2) {
+  right: 0;
+}
+
+.paper-title .social-icon:nth-last-child(3) {
+  right: 2rem;
+}
+
+.paper-title .social-icon:nth-last-child(4) {
+  right: 4rem;
+}
+
+.paper-title .social-icon:nth-last-child(5) {
+  right: 6rem;
+}

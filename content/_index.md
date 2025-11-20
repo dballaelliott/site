@@ -23,17 +23,23 @@ My research interests are in labor and applied econometrics; my email is   <span
     </a>
 </div>
 
+
+
+
+
+
 ##  Research
 
 <div class="paper-item">
     <div class="paper-title">
         <button class="paper-toggle" data-paper="1">+</button>
-        <h3 class="paper-title-text">Identifying Causal Effects in Information Provision Experiments </h3>  <a href="https://pdfs.dballaelliott.com/info_iv.pdf" class="social-icon" title="info_iv">
-        {{< icon "cv" >}}
-    </a> 
+        <h3 class="paper-title-text">Identifying Causal Effects in Information Provision Experiments </h3> <a href="https://dballaelliott.github.io/lls/" class="social-icon" title="R package">
+        {{< icon "code-brackets" >}}
+    </a>  <a href="https://pdfs.dballaelliott.com/info_iv.pdf" class="social-icon" title="info_iv">{{< icon "cv" >}}</a> 
+        <div class="names" style="display: none;"></div>
     </div>
     <div class="paper-content" id="paper-content-1">
-        <a href="https://pdfs.dballaelliott.com/info_iv.pdf">pdf</a> | <a href="https://doi.org/10.48550/arXiv.2309.11387">arXiv</a>
+        <a href="https://pdfs.dballaelliott.com/info_iv.pdf">pdf</a> | <a href="https://doi.org/10.48550/arXiv.2309.11387">arXiv</a> | <a href="https://dballaelliott.github.io/lls/"> package </a> | <a href="https://github.com/dballaelliott/lls"> github </a>
         <br><br>
         Balla-Elliott, Dylan (2025). "Identifying Causal Effects in Information Provision Experiments."  <a href="https://doi.org/10.48550/arXiv.2309.11387">arXiv:2309.11387</a>
         <br> 
@@ -47,11 +53,8 @@ before the experiment. I propose a local least squares estimator that identifies
 average effects in several classes of experiments under progressively stronger versions of
 Bayesian updating. In five of six recent studies, average effects are larger than–in several
 cases more than double–estimates in standard specifications.
-<!--  -->
-    <h3> Code [Under Construction] </h3>
-    An R package is under construction. Please email me for example code in R and Stata in the meantime!
-    </div>
 </div> 
+</div>
 
 
 
@@ -62,6 +65,7 @@ cases more than double–estimates in standard specifications.
         <h3 class="paper-title-text">Cohort‑Chained DiD: Long‑Run Effects with Limited Pre‑Treatment Data</h3> <a href="https://pdfs.dballaelliott.com/ccdid.pdf" class="social-icon" title="ccdid">
         {{< icon "cv" >}}
     </a>
+    <div class="names">with Isaac Norwich</div>
     </div>
     <div class="paper-content" id="paper-content-2">
         <a href="https://pdfs.dballaelliott.com/ccdid.pdf">pdf</a>
@@ -81,6 +85,7 @@ cases more than double–estimates in standard specifications.
         <h3 class="paper-title-text">Determinants of Small Business Reopening Decisions After COVID Restrictions Were Lifted</h3> <a href="https://pdfs.dballaelliott.com/jpam_reopening.pdf" class="social-icon" title="reopening">
         {{< icon "cv" >}}
     </a>
+    <div class="names">with Zoë B. Cullen, Edward L. Glaeser, Michael Luca, and Christopher Stanton</div>
     </div>
     <div class="paper-content" id="paper-content-3">
         <a href="https://pdfs.dballaelliott.com/jpam_reopening.pdf">pdf</a> | <a href="https://doi.org/10.1002/pam.22355">JPAM (ungated)</a>
@@ -92,3 +97,9 @@ cases more than double–estimates in standard specifications.
         The COVID-19 pandemic led to dramatic economic disruptions, including government-imposed restrictions that temporarily shuttered millions of American businesses. We use a nationwide survey of thousands of small business owners to establish three main facts about business owners’ decisions to reopen at the end of the lockdowns. First, roughly 60 percent of firms planned to reopen within days of the end of legal restrictions, suggesting that the lockdowns were generally binding for businesses—although nearly 30 percent expected to delay their reopening by at least a month. Second, decisions to delay reopenings did not seem to be driven by concerns about employee or customer health; even businesses in high-proximity sectors with the highest health risks generally reported intentions to reopen as soon as regulations allowed. Third, pessimistic demand projections primarily explain delays among firms that could legally reopen. Owners expected demand to be one-third lower than before the crisis throughout the pandemic. Using experimentally induced shocks to perceived demand, we find that a 10 percent decline in expected demand results in a 1.5 percentage point (8 percent) increase in the likelihood that firms expected to remain closed for at least one month after being legally able to open. We use follow-up surveys to cross-validate expectations with realized outcomes. Overall, our results suggest that governments set more stringent guidelines for reopening than what many businesses would have selected, suggesting that governments may have internalized costs of contagion that businesses did not.      
     </div>
 </div>
+
+## Code
+
+[<span style="font-family: 'Source Code Pro'; font-size: 1rem; color: var(--highlight-color)">lls</span>](https://dballaelliott.github.io/lls/): A companion package to "Identifying Causal Effects in Information Provision Experiments." See the [User's Guide](https://dballaelliott.github.io/lls/articles/Intro-to-LLS.html) for more information.
+
+
