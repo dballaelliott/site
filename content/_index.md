@@ -25,9 +25,6 @@ My research interests are in labor and applied econometrics; my email is   <span
 
 
 
-
-
-
 ##  Research
 
 <div class="paper-item">
@@ -65,7 +62,7 @@ cases more than double–estimates in standard specifications.
         <h3 class="paper-title-text">Cohort‑Chained DiD: Long‑Run Effects with Limited Pre‑Treatment Data</h3> <a href="https://pdfs.dballaelliott.com/ccdid.pdf" class="social-icon" title="ccdid">
         {{< icon "cv" >}}
     </a>
-    <div class="names">with Isaac Norwich</div>
+    <div class="names">with <a href="https://isaacnorwich.com">Isaac Norwich</a></div>
     </div>
     <div class="paper-content" id="paper-content-2">
         <a href="https://pdfs.dballaelliott.com/ccdid.pdf">pdf</a>
@@ -100,6 +97,6 @@ cases more than double–estimates in standard specifications.
 
 ## Code
 
-[<span style="font-family: 'Source Code Pro'; font-size: 1rem; color: var(--highlight-color)">lls</span>](https://dballaelliott.github.io/lls/): A companion package to "Identifying Causal Effects in Information Provision Experiments." See the [User's Guide](https://dballaelliott.github.io/lls/articles/Intro-to-LLS.html) for more information.
+[<span style="font-family: 'Source Code Pro'; font-size: 1.25rem; font-weight: 600; color: var(--highlight-color)">`lls`</span>](https://dballaelliott.github.io/lls/): Implements the estimator in *Identifying Causal Effects in Information Provision Experiments.* See the [User's Guide](https://dballaelliott.github.io/lls/articles/Intro-to-LLS.html) to get started.
 
 
