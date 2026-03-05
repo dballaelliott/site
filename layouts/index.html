@@ -3,29 +3,25 @@
   {{ partial "head.html" . }}
 <body>
   <a class="skip-link" href="#main">Skip to main</a>
-  <main id="main">
-    <div class="content">
-      {{ partial "header.html" . }}
-      <div class="site-layout">
-        <aside class="sidebar">
-          <img class="avatar" src="/picture.jpeg" alt="Dylan Balla-Elliott">
-          <p class="bio">
-            I'm a <strong>PhD candidate</strong> in the Economics Department at the <strong>University of Chicago</strong>.
-            My research interests are in labor and applied econometrics.
-          </p>
-          <p class="contact">
-            <span class="email">dbe@uchicago.edu</span>
-          </p>
-          <div class="sidebar-links">
-            <a href="https://pdfs.dballaelliott.com/dbeCV.pdf">CV</a>
-          </div>
-        </aside>
-        <div class="main-col">
-          {{ .Content }}
-        </div>
+  {{ partial "header.html" . }}
+  <div class="wrapper">
+    <aside class="sidebar">
+      <img class="headshot" src="/picture.jpeg" alt="Dylan Balla-Elliott">
+      <div class="sidebar-meta">
+        <span class="sidebar-title">PhD Candidate</span>
+        <span class="sidebar-affil">Department of Economics</span>
+        <span class="sidebar-affil">University of Chicago</span>
       </div>
-    </div>
-  </main>
+      <div class="sidebar-contact">
+        <span class="email">dbe@uchicago.edu</span>
+        <a href="https://pdfs.dballaelliott.com/dbeCV.pdf" class="cv-link">[cv]</a>
+      </div>
+    </aside>
+    <main id="main" class="main-col">
+      <p class="bio">My research interests are in labor and applied econometrics.</p>
+      {{ .Content }}
+    </main>
+  </div>
   {{ partial "footer.html" . }}
 </body>
 </html>
