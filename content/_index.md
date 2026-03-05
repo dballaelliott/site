@@ -9,7 +9,7 @@ description: "I'm a PhD candidate at UChicago Econ, and my research interests ar
 
 <li class="paper">
 <div class="paper-title"><a href="https://pdfs.dballaelliott.com/info_iv.pdf">Identifying Causal Effects in Information Provision Experiments</a></div>
-<span class="paper-venue"><em>Revise and Resubmit, Review of Economics and Statistics</em></span>
+<span class="paper-venue">Accepted at <em> The Review of Economics and Statistics</em></span>
 <span class="paper-links"><a class="abs-toggle" href="#" onclick="this.closest('.paper').querySelector('details').toggleAttribute('open');return false">[abstract]</a> <a href="https://pdfs.dballaelliott.com/info_iv.pdf">[pdf]</a> <a href="https://doi.org/10.48550/arXiv.2309.11387">[arXiv]</a> <a href="https://dballaelliott.github.io/lls/">[package]</a> <a href="https://github.com/dballaelliott/lls">[github]</a></span>
 <details class="paper-abs"><summary hidden></summary><div class="abs">
 Standard estimators in information provision experiments place more weight on individuals who update their beliefs more in response to new information.
@@ -43,4 +43,12 @@ The COVID-19 pandemic led to dramatic economic disruptions, including government
 
 ## Code
 
-<p class="code-desc"><a href="https://dballaelliott.github.io/lls/"><code>lls</code></a>: Implements the estimator in <em>Identifying Causal Effects in Information Provision Experiments.</em> See the <a href="https://dballaelliott.github.io/lls/articles/Intro-to-LLS.html">User's Guide</a> to get started.</p>
+<ul class="papers">
+
+<li class="paper">
+<div class="paper-title code-title"><a href="https://dballaelliott.github.io/lls/">lls</a></div>
+<span class="paper-meta">This package implements the estimator in <em>Identifying Causal Effects in Information Provision Experiments.</em></span>
+<span class="paper-links"><a href="https://dballaelliott.github.io/lls">[package]</a> <a href="https://dballaelliott.github.io/lls/articles/Intro-to-LLS.html">[docs]</a> <a href="https://github.com/dballaelliott/lls">[github]</a></span>
+</li>
+
+</ul>

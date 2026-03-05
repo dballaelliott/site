@@ -541,13 +541,9 @@ li.paper {
     }
 }
 
-// Code section
-.code-desc {
-    code {
-        font-weight: 600;
-        font-size: 1rem;
-        color: var(--accent);
-    }
+// Code section — package names in monospace
+.code-title a {
+    font-family: "Source Code Pro", monospace;
 }
 
 // ==========================================
