@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+    <div class="content">
+      {{ partial "header.html" . }}
+      <div class="site-layout">
+        <aside class="sidebar">
+          <img class="avatar" src="/picture.jpeg" alt="Dylan Balla-Elliott">
+          <p class="bio">
+            I'm a <strong>PhD candidate</strong> in the Economics Department at the <strong>University of Chicago</strong>.
+            My research interests are in labor and applied econometrics.
+          </p>
+          <p class="contact">
+            <span class="email">dbe@uchicago.edu</span>
+          </p>
+          <div class="sidebar-links">
+            <a href="https://pdfs.dballaelliott.com/dbeCV.pdf">CV</a>
+          </div>
+        </aside>
+        <div class="main-col">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </main>
+  {{ partial "footer.html" . }}
+</body>
+</html>

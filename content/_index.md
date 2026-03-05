@@ -3,23 +3,6 @@ title: "Home"
 description: "I'm a PhD candidate at UChicago Econ, and my research interests are in labor and applied econometrics."
 ---
 
-# Hi! I'm Dylan Balla-Elliott;
-
-<img class="avatar" src="/picture.jpeg" alt="Dylan Balla-Elliott">
-
-I'm a **PhD candidate** in the Economics Department at the **University of Chicago**.
-My research interests are in labor and applied econometrics; my email is   <span style="font-family: 'Source Code Pro'; font-size: 1rem;">dbe@uchicago.edu</span>
-
-
-<!-- Social icons -->
-<div class="social-icons">
-    <a href="https://pdfs.dballaelliott.com/dbeCV.pdf" class="social-icon" title="CV">
-        {{< icon "cv" >}}
-    </a>
-</div>
-
-
-
 ## Research
 
 <ul class="papers">
@@ -70,5 +53,4 @@ The COVID-19 pandemic led to dramatic economic disruptions, including government
 
 ## Code
 
-[<span style="font-family: 'Source Code Pro'; font-size: 1.25rem; font-weight: 600; color: var(--blue-link)">`lls`</span>](https://dballaelliott.github.io/lls/): Implements the estimator in *Identifying Causal Effects in Information Provision Experiments.* See the [User's Guide](https://dballaelliott.github.io/lls/articles/Intro-to-LLS.html) to get started.
-
+<p class="code-desc"><a href="https://dballaelliott.github.io/lls/"><code>lls</code></a>: Implements the estimator in <em>Identifying Causal Effects in Information Provision Experiments.</em> See the <a href="https://dballaelliott.github.io/lls/articles/Intro-to-LLS.html">User's Guide</a> to get started.</p>
