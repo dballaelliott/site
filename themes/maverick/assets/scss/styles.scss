@@ -4,49 +4,41 @@
 }
 
 :root {
-    --highlight-color: #ff6b6b; /* Bright coral-red accent color */
-    --highlight-hover: #ff5252; /* Slightly darker on hover */
+    --blue-link: #0077cc;
+    --blue-link-hover: #005999;
+    --gold-link: #c79300;
+    --gold-link-hover: #946b00;
+    --muted: #666;
+    --border: #eaeaea;
 }
 
 body {
-    // font: 1rem/1.5 -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
     font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 1.125rem;
+    font-size: 1.05rem;
     line-height: 1.6;
     font-weight: 400;
-    font-display: swap; /* Helps with font loading */
+    font-display: swap;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    /* Safari-specific font rendering improvements */
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     padding: 2rem;
-    // background: hsla(93, 0%, 96%, 1.00);
-    background: #fffdfa;
-    color: #000;
+    background: #fff;
+    color: #111;
 }
 
 .skip-link {
     position: absolute;
     top: -40px;
     left: 0;
-    //margin: 1.5rem 0;
     background: #eee;
-    //color: white;
-    //padding: 1.5rem;
     z-index: 100;
 }
 
 .skip-link:focus {
     top: 0;
 }
-
-// h1, h2, h3, h4, h5, strong, b {
-//     font-size: inherit;
-//     font-weight: 600;
-//     text-transform: uppercase;
-// }
 
 h1, h2, h3 {
     font-weight: 600;
@@ -96,7 +88,7 @@ header {
             right: -100%;
             width: 100%;
             height: 100vh;
-            background: #fffdfa;
+            background: #fff;
             padding: 2rem;
             transition: 0.3s ease;
             z-index: 1;
@@ -109,7 +101,7 @@ header {
                 flex-direction: column;
                 align-items: center;
                 width: 100%;
-                
+
                 li {
                     display: block;
                     font-size: 1.2rem;
@@ -145,14 +137,9 @@ header a {
 header ul {
     list-style-type: none;
     padding: 0;
-    //border-right: 1px solid #edf2f7;
-
 }
 
 header li, header a {
-    //margin-bottom: .2rem;
-    //text-align: right;
-    //margin-right: 2rem;
     display: inline;
 }
 
@@ -160,8 +147,6 @@ header li, header a {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
     text-decoration: none;
 }
 
@@ -232,7 +217,6 @@ ul, ol {
 .content {
     max-width: 70ch;
     margin: 0 auto;
-    // text-align: justify;
 }
 
 h2.post {
@@ -268,7 +252,6 @@ header ul a:first-child {
     border: 0;
     border-bottom: 1px dotted #ccc;
     flex: 1 0 1rem;
-    //opacity: .25;
 }
 
 .m,
@@ -282,7 +265,6 @@ img {
     height: auto;
 }
 
-
 .post-date {
     margin: 5% 0 5%;
 }
@@ -294,7 +276,6 @@ img {
 .animate-blink {
     animation: opacity 1s infinite;
     opacity: 1;
-    // margin-left: -1%;
 }
 
 @keyframes opacity {
@@ -332,6 +313,7 @@ img {
     margin: -10px 0 0 15px;
     float: right;
     border-radius: 50%;
+    border: 1px solid var(--border);
 }
 
 table {
@@ -349,92 +331,88 @@ th {
     background-color: #f2f2f2;
 }
 
-// Paper expand/collapse functionality
-.paper-item {
-    margin-bottom: 0.5rem;
-    border-left: 3px solid transparent;
-    padding-left: 0.75rem;
-    transition: border-color 0.2s ease;
+// Paper list — simple, static style
+ul.papers {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0.5rem;
 }
 
-.paper-item:hover {
-    border-left-color: #e5e5e5;
+li.paper {
+    margin: 14px 0 18px;
 }
 
 .paper-title {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 0.25rem;
-    line-height: 1.3;
-    cursor: pointer;
-    padding: 0.2rem 0;
-    border-radius: 4px;
-    transition: background-color 0.2s ease;
-    position: relative;
-}
-
-.paper-title:hover {
-    background-color: rgba(0, 0, 0, 0.03);
-    transform: scale(1.02);
-}
-
-.paper-title-text {
-    flex: 1 1 0;
-    margin: 0;
-    margin-right: 6rem; /* space for up to 3 icons on the right */
-    font-size: 1.1rem;
-    font-weight: 500;
-    line-height: 1.3;
-    // color: #666;
-    transition: color 0.2s ease;
-}
-
-// .paper-title:hover .paper-title-text {
-//     // color: #333;
-// }
-
-.paper-toggle {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 1;
-    transition: all 0.2s ease;
-    color: #666;
-    margin-top: 0.1rem;
-    margin-right: 0.5rem;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-}
-
-.paper-toggle:hover {
-    color: #333;
-    transform: scale(1.1);
-}
-
-.paper-toggle.expanded {
-    color: #333;
-    transform: rotate(180deg);
-}
-
-.paper-content {
-    max-height: 0;
-    opacity: 0;
-    overflow: hidden;
-    transition: all 0.3s ease;
-    padding-left: 2rem;
-    margin-top: 0.25rem;
-    // color: #666;
-    font-style: normal;
-    font-size: 1rem;
+    font-weight: 600;
+    font-size: 1.05rem;
     line-height: 1.4;
+
+    a {
+        color: var(--blue-link);
+        text-decoration: none;
+
+        &:hover {
+            color: var(--blue-link-hover);
+        }
+    }
+}
+
+.paper-meta {
+    display: block;
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-top: 2px;
+
+    a {
+        color: var(--muted);
+        text-decoration: underline;
+        text-decoration-color: var(--border);
+        text-underline-offset: 2px;
+
+        &:hover {
+            color: #333;
+        }
+    }
+}
+
+.paper-links {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 2px;
+
+    a {
+        color: var(--blue-link);
+        text-decoration: none;
+
+        &:hover {
+            color: var(--blue-link-hover);
+            text-decoration: underline;
+        }
+    }
+}
+
+li.paper details {
+    margin-top: 4px;
+
+    summary {
+        color: var(--gold-link);
+        cursor: pointer;
+        font-size: 0.9rem;
+        display: inline;
+        user-select: none;
+
+        &:hover {
+            color: var(--gold-link-hover);
+        }
+    }
+
+    .abs {
+        color: #333;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-top: 6px;
+        padding-left: 0;
+    }
 }
 
 // Social icons
@@ -458,7 +436,7 @@ th {
 }
 
 .social-icon:hover {
-    color: #0066cc;
+    color: var(--blue-link);
 }
 
 .social-icon svg {
@@ -496,20 +474,20 @@ footer {
     border-top: 1px solid #eee;
     text-align: center;
     font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    
+
     p {
         margin: 0;
         font-size: 0.9rem;
         color: #666;
         line-height: 1.5;
     }
-    
+
     a {
         color: #666;
         text-decoration: none;
         border-bottom: 1px solid transparent;
         transition: all 0.2s ease;
-        
+
         &:hover {
             color: #333;
             border-bottom-color: #333;
