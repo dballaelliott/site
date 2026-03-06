@@ -15,13 +15,6 @@ googleAnalytics = 'G-HBBB14MJL3'
   author = 'Dylan Balla-Elliott'
   items = 10
 
-[menu]
-  [[menu.main]]
-    identifier = "papers"
-    name = "Papers"
-    url = "/#papers"
-    weight = 1
-
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
